@@ -1,0 +1,221 @@
+.navbar{
+    color:white;
+}
+.logo{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+h3{
+    padding: 7% 10%;
+    text-align:center;
+   
+    
+}
+.intro{
+    border: dotted;
+    border-width: 10px 5px;
+    border-radius: 10px 40px;
+}
+
+.details{
+    padding: 5% 4%;
+    padding-left: 10%;
+
+    text-align:cenetr;
+    font-size: x-large;
+}
+
+
+body{
+   /* background-color: rgb(143, 73, 208); */
+   background-image: url(purplish.png);
+   background-size: contain;
+}
+
+.image{
+    display: grid;
+    place-items: center;
+    padding:4% 10%;
+    padding-top: 2%;
+}
+.prev-img{
+position: absolute;
+}
+.img-center{
+    position: relative;
+    top: 7px;
+    right: 13px;
+}
+
+
+.navbar-brand{
+    padding:3% 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.nav-items{
+    padding: 3% 3%;
+}
+a{
+    color: white;
+}
+.navbar-nav{
+    padding-right:15% ;
+    padding-left: 40%;
+}
+.navbar-toggler{
+    padding-right:3% ;
+}
+.navbar-toggler-icon{
+    padding-right: 3%;
+}
+
+
+
+.carousel-item{
+    padding: 2% 15%;
+    color:white;
+    text-align:center;
+}
+
+h{
+    padding: 2% 4%;
+    text-align:center;
+   
+
+
+}
+#quotes{
+    color:white;
+    text-align:center;
+    padding:5%;
+    
+}
+#contact{
+    color:white;
+    text-align:center;
+    
+}
+.fas{
+  padding: 2%;
+}
+
+/*cards*/
+
+.cards{
+    padding: 3% 3%;
+    color: white;
+}
+
+body{
+    color: white;
+}
+/*.row-cols-lg-4{
+    padding: 3% 3%;
+}
+.row-cols-md-2{
+    padding: 3% 3%;
+}
+.row-cols-sm-1{
+    padding: 3% 22%;
+}
+<div class="abt-btns col-2">
+            <button type="button" class="btn btn-outline-warning btn-lg first-button"><i class="fa-regular fa-brain-circuit fa-2x fis-fas"></i></button>
+           </div>
+ .fis{
+   padding:30%;
+}
+
+
+*/
+
+.hi{
+    display: grid;
+    place-items: center;
+   padding: 2%;
+}
+.first-button{
+    padding: 8%;
+}
+
+
+.btns-one{
+    padding: 10%;
+    place-items: cenetr;
+}
+.abt-btns{
+    padding: 3% 2%;
+}
+
+.col-3{
+    display: grid;
+    place-items: center;
+}
+.card-imge{
+    height: 271px;
+}
+.card{
+background-color: rgb(119, 43, 191);
+width: 180px;
+}
+
+.footer{
+    background-color: rgba(77, 37, 113, 0.759);
+}
+#quotes{
+    background-color:rgba(110, 53, 168, 0.521);
+}
+#navbar{
+    background-color:rgba(103, 13, 139, 0.888);
+}
+#about{
+     background-color:rgba(135, 38, 165, 0.521);
+}
+#achievments{
+    padding-top: 2%;
+    background-color:rgba(127, 50, 200, 0.37) ;
+    padding-bottom: 1%;
+}
+
+h{
+    font-weight: bolder;
+}
+.text-light{
+    opacity: 0.9;
+}
+@media screen and (min-width:1000px) {
+    .img-center{
+        border-radius:50%; 
+        height:400px; 
+        width:400px;
+    }
+}
+@media screen and (min-width:100px) {
+    .prev-img{
+        border-radius: 50%; 
+        place-items: center;  
+        height:410px;
+         width:400px
+    }
+}
+    
+
+@media screen and (max-width:999px) {
+    .img-center{
+        border-radius:50%; 
+        height:350px; 
+        width:350px;
+    }
+}
+@media  screen and (max-width:999px) {
+    .prev-img{
+        border-radius: 50%; 
+        place-items: center;  
+        height:360px;
+         width:350px
+    }
+  
+}
+    
