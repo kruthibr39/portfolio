@@ -134,7 +134,7 @@ body{
 .hi{
     display: grid;
     place-items: center;
-   padding: 2%;
+   padding: 1%;
 }
 .first-button{
     padding: 8%;
@@ -185,14 +185,14 @@ h{
 .text-light{
     opacity: 0.9;
 }
-@media screen and (min-width:1000px) {
+@media screen and (min-width:501px) {
     .img-center{
         border-radius:50%; 
         height:400px; 
         width:400px;
     }
 }
-@media screen and (min-width:100px) {
+@media screen and (min-width:501px) {
     .prev-img{
         border-radius: 50%; 
         place-items: center;  
@@ -202,19 +202,19 @@ h{
 }
     
 
-@media screen and (max-width:999px) {
+@media screen and (max-width:500px) {
     .img-center{
         border-radius:50%; 
-        height:350px; 
-        width:350px;
+        height:300px; 
+        width:300px;
     }
 }
-@media  screen and (max-width:999px) {
+@media  screen and (max-width:500px) {
     .prev-img{
         border-radius: 50%; 
         place-items: center;  
-        height:360px;
-         width:350px
+        height:310px;
+         width:300px
     }
   
 }
